@@ -1,0 +1,41 @@
+$blue: #0361CC;
+$blue-darker: #044ea4;
+$light: #f8f9fa;
+$light-gray: #eeebec;
+$white: #fff;
+$black: #000;
+$gray: #a7adb0;
+$gray-dark: #343a40;
+$dark-blue: #212529;
+
+$primary: $blue;
+$secondary: $gray;
+$dark: $gray-dark;
+
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace: "IBM Plex Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$space: 10px;
+
+$font-size: 16px;
+
+$font-size-10: 10px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-18: 18px;
+$font-size-24: 24px;
+$font-size-28: 28px;
+
+$font-weight: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$border-radius: 5px;
+$border: 1px solid;
+$border-color: $light-gray;

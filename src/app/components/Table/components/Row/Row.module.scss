@@ -1,0 +1,14 @@
+@import '../../../../../assets/scss/_variables';
+
+.container {
+  width: 100%;
+
+  .cell {
+    font-size: $font-size-12;
+    font-weight: $font-weight-bold;
+  }
+
+  .isDifferent {
+    background-color: $light-gray;
+  }
+}

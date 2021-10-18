@@ -1,0 +1,20 @@
+@import 'variables';
+
+input {
+    &[type='checkbox'] {
+        padding: 0;
+        height: $space * 1.5;
+        width: auto;
+        margin-right: $space;
+        margin-top: $space * 0.3;
+    }
+}
+
+label {
+    display: flex;
+    font-weight: $font-weight-bold;
+    margin-bottom: $space;
+    font-size: $font-size-12;
+    color: $black;
+    padding: 0;
+}

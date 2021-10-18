@@ -1,0 +1,87 @@
+@import 'variables';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    font-family: $font-family-sans-serif;
+    font-size: 1rem;
+    font-weight: $font-weight;
+    line-height: 1.5;
+    color: $dark-blue;
+    text-align: left;
+    background-color: $white;
+}
+
+[tabindex="-1"]:focus {
+    outline: 0 !important
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+table {
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+td,
+th {
+    padding: 5px 10px;
+    border-top: $border $border-color;
+    background-color: $white;
+    width: $space * 21.5;
+}
+
+th {
+    padding: 5px 7px;
+    border-right: $border $border-color;
+    width: $space * 25;
+}
+
+th:last-of-type {
+    border-left: 0;
+}
+
+td:last-of-type {
+    border-right: 0;
+}
+
+th,
+tr:first-of-type > td {
+    font-size: $font-size * 0.7;
+    font-weight: $font-weight;
+    color: $dark;
+}
+
+tr:first-of-type > td {
+    border-bottom: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}

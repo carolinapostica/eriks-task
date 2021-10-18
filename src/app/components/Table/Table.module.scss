@@ -1,0 +1,91 @@
+@import '../../../assets/scss/_variables';
+
+.container {
+  .image {
+    height: $space * 2.5;
+    width: $space * 2.5;
+    margin-right: $space * 0.2;
+  }
+
+  .badges {
+    & > td,
+    & > th {
+      border-top: 0;
+    }
+
+    & > td {
+      padding: $space * 0.2 $space * 0.7;
+    }
+  }
+
+  .title {
+    font-size: $font-size-12;
+    line-height: 1.4;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    margin-top: $space * 2;
+  }
+
+  .productImage {
+    width: $space * 13;
+    height: $space * 13;
+    margin: $space * 2 auto 0;
+    display: block;
+    border: none;
+    position: relative;
+
+    &:before {
+      content: 'Broken Image';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      line-height: $space * 13;
+      background-color: $light;
+      color: $dark;
+      font-weight: $font-weight-bold;
+      text-align: center;
+      display: block;
+      width: $space * 13;
+      height: $space * 13;
+      overflow: hidden;
+    }
+  }
+
+  .price {
+    font-size: $font-size;
+    font-weight: $font-weight-bold;
+  }
+
+  .priceUnit {
+    display: block;
+    font-size: $font-size-10;
+    font-weight: $font-weight;
+    color: $gray;
+  }
+
+  .separator {
+    border: 0;
+    border-bottom: $border $border-color;
+    padding-top: $space * 1.5;
+  }
+
+  .product {
+    vertical-align: bottom;
+    padding-bottom: $space * 2;
+    padding-top: $space * 3;
+    position: relative;
+  }
+
+  .remove {
+    color: $primary;
+    height: $space * 2;
+    width: $space * 2;
+    position: absolute;
+    top: $space * 2;
+    right: $space * 2;
+    transform: rotate(45deg);
+    font-size: $font-size-24;
+  }
+}

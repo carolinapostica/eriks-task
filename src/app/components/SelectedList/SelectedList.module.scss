@@ -1,0 +1,12 @@
+@import '../../../assets/scss/_variables';
+
+.container {
+  margin-top: 30px;
+  padding-right: 15px;
+
+  .title {
+    font-size: $font-size-14;
+    font-weight: $font-weight-bold;
+    color: $primary;
+  }
+}
